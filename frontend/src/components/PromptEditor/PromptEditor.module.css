@@ -1,0 +1,56 @@
+.editorContainer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.promptInput {
+  width: 100%;
+  min-height: 200px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modelSelector {
+  margin-bottom: 1.5rem;
+}
+
+.modelSelector select {
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+}
+
+.generateButton {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.generateButton:hover {
+  background-color: #1d4ed8;
+}
+
+.generateButton:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.tipsSection {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+}
+
+.tipsSection h3 {
+  margin-top: 0;
+  color: #1f2937;
+}
